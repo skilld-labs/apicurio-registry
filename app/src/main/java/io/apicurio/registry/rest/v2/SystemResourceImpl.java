@@ -27,9 +27,9 @@ import io.apicurio.registry.mt.TenantContext;
 import io.apicurio.registry.rest.v2.beans.Limits;
 import io.apicurio.registry.rest.v2.beans.SystemInfo;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
-import javax.interceptor.Interceptors;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
+import jakarta.interceptor.Interceptors;
 
 /**
  * @author eric.wittmann@gmail.com

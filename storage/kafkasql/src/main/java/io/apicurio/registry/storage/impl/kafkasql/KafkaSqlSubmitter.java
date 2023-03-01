@@ -21,8 +21,8 @@ import java.util.Date;
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 
 import io.apicurio.registry.storage.impl.kafkasql.keys.ArtifactOwnerKey;
 import io.apicurio.registry.storage.impl.kafkasql.values.ArtifactOwnerValue;

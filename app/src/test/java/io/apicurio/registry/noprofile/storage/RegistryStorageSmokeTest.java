@@ -26,7 +26,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 import java.util.List;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import io.apicurio.registry.storage.ArtifactNotFoundException;
 import io.apicurio.registry.storage.RegistryStorage;

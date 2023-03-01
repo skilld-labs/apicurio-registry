@@ -27,8 +27,8 @@ import io.apicurio.registry.utils.OptionalBean;
 import org.eclipse.microprofile.faulttolerance.Retry;
 import org.eclipse.microprofile.faulttolerance.Timeout;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 
 import static io.apicurio.registry.faulttolerance.FaultToleranceConstants.TIMEOUT_MS;
 

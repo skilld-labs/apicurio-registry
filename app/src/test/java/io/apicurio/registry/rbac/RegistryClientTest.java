@@ -38,7 +38,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import io.apicurio.registry.rest.client.exception.GroupNotFoundException;
 import io.apicurio.registry.rest.v2.beans.GroupMetaData;

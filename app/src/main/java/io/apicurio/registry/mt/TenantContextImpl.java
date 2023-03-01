@@ -20,11 +20,11 @@ import io.apicurio.registry.mt.limits.TenantLimitsConfiguration;
 import io.apicurio.tenantmanager.api.datamodel.TenantStatusValue;
 import io.quarkus.vertx.http.runtime.CurrentVertxRequest;
 import io.vertx.core.http.HttpServerRequest;
+import jakarta.annotation.PostConstruct;
 import org.slf4j.MDC;
 
-import javax.annotation.PostConstruct;
-import javax.enterprise.context.RequestScoped;
-import javax.inject.Inject;
+import jakarta.enterprise.context.RequestScoped;
+import jakarta.inject.Inject;
 import java.util.Optional;
 
 /**

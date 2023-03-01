@@ -151,7 +151,7 @@
         <node.version>16.17.0</node.version>
 
         <!-- Quarkus Version -->
-        <quarkus.version>2.14.3.Final</quarkus.version>
+        <quarkus.version>3.0.0.Alpha5</quarkus.version>
 
         <!-- Jandex -->
         <jandex.version>1.1.1</jandex.version>
@@ -193,7 +193,7 @@
         <apicurio-data-models.version>2.0.0.RC1</apicurio-data-models.version>
 
         <!-- Apicurio Tenant Manager -->
-        <apicurio-tenant-manager.version>0.1.2.Final</apicurio-tenant-manager.version>
+        <apicurio-tenant-manager.version>0.2.0.CR1</apicurio-tenant-manager.version>
 
         <!-- GraphQL -->
         <graphql.version>20.0</graphql.version>
@@ -205,12 +205,11 @@
 
         <!-- Dependency versions -->
         <lombok.version>1.18.26</lombok.version>
-        <h2.version>1.4.199</h2.version>
         <commons-codec.version>1.15</commons-codec.version>
         <jboss-slf4j.version>1.2.1.Final</jboss-slf4j.version>
         <httpclient.version>4.5.14</httpclient.version>
         <apicurio-common-rest-client.version>0.1.14.Final</apicurio-common-rest-client.version>
-        <apicurio-common-app-components.version>0.1.14.Final</apicurio-common-app-components.version>
+        <apicurio-common-app-components.version>0.2.0.CR1</apicurio-common-app-components.version>
         <sentry.version>1.7.30</sentry.version>
         <kafka-oauth-client.version>0.11.0</kafka-oauth-client.version>
         <kafka-clients.version>2.8.1</kafka-clients.version>

@@ -7,8 +7,8 @@ import io.apicurio.registry.storage.dto.GroupMetaDataDto;
 import io.apicurio.registry.types.Current;
 import io.quarkus.security.identity.SecurityIdentity;
 
-import javax.inject.Inject;
-import javax.interceptor.InvocationContext;
+import jakarta.inject.Inject;
+import jakarta.interceptor.InvocationContext;
 
 public abstract class AbstractAccessController implements IAccessController {
 

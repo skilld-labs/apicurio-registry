@@ -16,16 +16,16 @@
 
 package io.apicurio.registry.auth;
 
-import javax.annotation.Priority;
-import javax.enterprise.inject.Instance;
-import javax.inject.Inject;
-import javax.interceptor.AroundInvoke;
-import javax.interceptor.Interceptor;
-import javax.interceptor.InvocationContext;
+import jakarta.enterprise.inject.Instance;
+import jakarta.inject.Inject;
+import jakarta.interceptor.AroundInvoke;
+import jakarta.interceptor.Interceptor;
+import jakarta.interceptor.InvocationContext;
 
 import io.apicurio.common.apps.config.Info;
 import io.apicurio.registry.mt.RegistryTenantContext;
 import io.apicurio.registry.mt.TenantNotAuthorizedException;
+import jakarta.annotation.Priority;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.eclipse.microprofile.jwt.JsonWebToken;
 import org.slf4j.Logger;

@@ -4,7 +4,7 @@ import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 import io.apicurio.common.apps.config.Info;
 
-import javax.inject.Singleton;
+import jakarta.inject.Singleton;
 
 @Singleton
 public class RestConfig {
